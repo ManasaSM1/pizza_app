@@ -1,0 +1,35 @@
+.body{
+  background-color: whitesmoke;
+}
+.pizza-picture{
+  height: 540px;
+  width: 750px;
+  object-fit: cover;
+}
+
+.pizza-container{
+  background-color: white;
+  width: 750px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: wheat 0px 3px 8px;
+}
+
+.pizza-name{
+  padding: 16px;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, cursive;
+  font-style:italic;
+  
+}
+.pizza-list-conatiner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:24px
+
+}
+.login{
+  font-size:15px;
+  padding:10px;
+}
